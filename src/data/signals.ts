@@ -1,0 +1,103 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { QuickSignal } from '../types';
+
+export const CLASSROOM_SIGNALS: QuickSignal[] = [
+  {
+    id: 'sig_sim',
+    label: 'SIM',
+    speechText: 'Sim!',
+    iconName: 'Check',
+    bgColor: 'bg-emerald-600',
+    textColor: 'text-white',
+    borderColor: 'border-emerald-700',
+  },
+  {
+    id: 'sig_nao',
+    label: 'NÃO',
+    speechText: 'Não.',
+    iconName: 'X',
+    bgColor: 'bg-rose-600',
+    textColor: 'text-white',
+    borderColor: 'border-rose-700',
+  },
+  {
+    id: 'sig_banheiro',
+    label: 'BANHEIRO',
+    speechText: 'Professor, preciso ir ao banheiro por favor.',
+    iconName: 'Bath',
+    bgColor: 'bg-sky-600',
+    textColor: 'text-white',
+    borderColor: 'border-sky-700',
+    urgent: true,
+  },
+  {
+    id: 'sig_agua',
+    label: 'ÁGUA',
+    speechText: 'Preciso beber água.',
+    iconName: 'Droplet',
+    bgColor: 'bg-cyan-600',
+    textColor: 'text-white',
+    borderColor: 'border-cyan-700',
+  },
+  {
+    id: 'sig_pausa',
+    label: 'PAUSA / CALMA',
+    speechText: 'Preciso de uma pausa para me acalmar.',
+    iconName: 'Coffee',
+    bgColor: 'bg-purple-600',
+    textColor: 'text-white',
+    borderColor: 'border-purple-700',
+    urgent: true,
+  },
+  {
+    id: 'sig_nao_entendi',
+    label: 'NÃO ENTENDI',
+    speechText: 'Não entendi, pode repetir com calma?',
+    iconName: 'HelpCircle',
+    bgColor: 'bg-amber-500',
+    textColor: 'text-amber-950',
+    borderColor: 'border-amber-600',
+  },
+  {
+    id: 'sig_falar',
+    label: 'QUERO FALAR',
+    speechText: 'Eu quero falar, levantei a mão!',
+    iconName: 'Hand',
+    bgColor: 'bg-indigo-600',
+    textColor: 'text-white',
+    borderColor: 'border-indigo-700',
+  },
+  {
+    id: 'sig_ajuda',
+    label: 'AJUDA',
+    speechText: 'Por favor, venha me ajudar aqui.',
+    iconName: 'LifeBuoy',
+    bgColor: 'bg-orange-600',
+    textColor: 'text-white',
+    borderColor: 'border-orange-700',
+    urgent: true,
+  },
+  {
+    id: 'sig_dor',
+    label: 'DOR / MAL ESTAR',
+    speechText: 'Estou sentindo dor ou não estou bem.',
+    iconName: 'AlertTriangle',
+    bgColor: 'bg-red-700',
+    textColor: 'text-white',
+    borderColor: 'border-red-800',
+    urgent: true,
+  },
+  {
+    id: 'sig_terminei',
+    label: 'TERMINEI',
+    speechText: 'Terminei a atividade! Pode olhar?',
+    iconName: 'Sparkles',
+    bgColor: 'bg-teal-600',
+    textColor: 'text-white',
+    borderColor: 'border-teal-700',
+  },
+];

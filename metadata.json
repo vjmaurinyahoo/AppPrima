@@ -1,0 +1,6 @@
+{
+  "name": "Prisma: Aprender & Expressar",
+  "description": "Tecnologia assistiva e CAA para estudantes não-verbais e com dificuldades de aprendizagem com simplificação por IA, pranchas dinâmicas, voz e quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
